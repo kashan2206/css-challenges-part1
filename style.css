@@ -1,0 +1,59 @@
+body {
+    text-align: center; /* Center text for the entire page */
+    font-family: 'Roboto', sans-serif; /* Set font family to Roboto */
+    font-size: 21px;
+    margin: 0; /* Remove default margin */
+    padding: 0;
+  }
+  .content {
+    width: 570px; 
+    margin: 0 auto; 
+  }
+  .part {
+              padding: 100px 0; 
+              width: 100%; 
+              box-sizing: border-box; 
+
+          }
+          .header {
+              background-color: #D7D7D7; 
+          }
+          .about-me {
+              background-color: #FFEAEA; /* Set background color for about-me section */
+          }
+          .articles {
+              background-color: #EAF9FF; /* Set background color for articles section */
+          }
+  h1 {
+              font-size: 30px; /* Set font size for h1 */
+              font-weight: 900; /* Set font weight for h1 */
+              line-height: 1.2; /* Ensure bold text is on its own line */
+          }
+          h2 {
+              font-size: 25px; /* Set font size for h2 */
+              font-weight: 900; /* Set font weight for h2 */
+              line-height: 1.2; /* Ensure bold text is on its own line */
+          }
+          a {
+              color: #99D930; /* Set link color */
+              text-decoration: none; /* Remove underline from links */
+              transition: color 0.3s; /* Add smooth transition for color change */
+          }
+          a:hover {
+              color: #131313; /* Set link hover color */
+          }
+          h3 {
+              font-size: 30px; /* Set font size for h3 */
+              font-weight: 900; /* Set font weight for h3 */
+          }
+          .small {
+              font-size: 16px; /* Set font size for small */
+          }
+          img{
+        
+            width: 150px; 
+            height: 150px;
+            border-radius: 50%;
+            margin: 10px;
+            padding: 10px;
+          }
